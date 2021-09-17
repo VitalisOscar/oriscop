@@ -108,7 +108,7 @@
     </div>
   </section>
 
-  <section id="about" class="mt-0 about-us section">
+  <section id="about" class="mb-0 about-us section">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -131,6 +131,23 @@
                   width: 60px !important;
                   background: #fff;
                   border-radius: 50%;
+                }
+              
+                .about-us .left-image {
+                    bottom: 0px !important;
+                    position: relative !important;
+                }
+      
+                @media(max-width: 991.99px){
+                  .about-us .left-image {
+                    bottom: -100px !important;
+                    position: absolute !important;
+                  }
+      
+                  .about-us {
+                    position: relative !important;
+                    padding-bottom: 200px !important;
+                  }
                 }
               </style>
 
@@ -211,11 +228,11 @@
     </div>
   </section>
 
-  <section style="padding-top: 2.5rem;" id="services" class="our-services section">
+  <section style="padding-top: 1.5rem;" id="services" class="our-services section" style="background-color: #f1f5f9;">
     <div class="container">
       <div class="row">
-        
-        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+
+        <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="left-image">
             <img src="assets/images/undraw_Working_re_ddwy.svg" alt="">
           </div>
@@ -243,6 +260,7 @@
           </div>
 
         </div>
+
       </div>
     </div>
   </section>
@@ -271,54 +289,48 @@
       <div class="row">
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-              <div class="hidden-content">
-                <p>Designers at work</p>
-              </div>
-              <div class="showed-content">
-                <div class="embed-responsive embed-responsive-4by3">
-                  <div class="embed-responsive-item">
-                    <img src="images/cropped/1.jpeg" alt="" class="rounded">
-                  </div>
+          <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="hidden-content">
+              <p>Designers at work</p>
+            </div>
+            <div class="showed-content">
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="embed-responsive-item">
+                  <img src="images/cropped/1.jpeg" alt="" class="rounded">
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-              <div class="hidden-content">
-                <p>Ongoing work on display</p>
-              </div>
-              <div class="showed-content">
-                <div class="embed-responsive embed-responsive-4by3">
-                  <div class="embed-responsive-item">
-                    <img src="images/cropped/2.jpeg" alt="" class="w-100 rounded">
-                  </div>
+          <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+            <div class="hidden-content">
+              <p>Our Offices</p>
+            </div>
+            <div class="showed-content">
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="embed-responsive-item">
+                  <img src="images/cropped/2.jpeg" alt="" class="w-100 rounded">
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
 
         <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <a href="#">
-            <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-              <div class="hidden-content">
-                <p>Ongoing work on display</p>
-              </div>
-              <div class="showed-content">
-                <div class="embed-responsive embed-responsive-4by3">
-                  <div class="embed-responsive-item">
-                    <img src="images/cropped/4.jpeg" alt="" class="rounded">
-                  </div>
+          <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="hidden-content">
+              <p>Ongoing work on display</p>
+            </div>
+            <div class="showed-content">
+              <div class="embed-responsive embed-responsive-4by3">
+                <div class="embed-responsive-item">
+                  <img src="images/cropped/4.jpeg" alt="" class="rounded">
                 </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
 
       </div>
@@ -436,10 +448,17 @@
                 </span>
               </h4>
 
-              <h4>
+              <h4 class="mb-3">
                 <span>
                   <i class="fa fa-facebook mx-0"></i>&nbsp;&nbsp;
-                  <a href="tel:+254710338211">Oriscop Graphics</a>
+                  <a target="_blank" href="https://facebook.com/Oriscop-Graphics-104016075243906/">Oriscop Graphics</a>
+                </span>
+              </h4>
+
+              <h4>
+                <span>
+                  <i class="fa fa-map-marker mx-0"></i>&nbsp;&nbsp;
+                  <a>Imara Daima, Nairobi – Along Mombasa RD</a>
                 </span>
               </h4>
 
